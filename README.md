@@ -8,25 +8,22 @@ Live boor weather apiを利用し、各都道府県の今日、明日、明後�
 シンプルな操作しやすいデザインを心掛けました。  
 クロスブラウザに対応する為、サーバー系プログラミング言語としてpythonを使用し、webフレームワークとしてbottleを利用しました。  
 searchボタンをクリックで、各都道府県の天気が調べられます。  
-フリーですので必要な方はご自由に使用願います。  
+フリーですので必要な方はご自由に使用願います。 
+webフレームワークbottleは各自ダウンロード願います。
 ## ファイルの構成
 ```
 ファイルの構成/
 ├─ README.md
-├─ Fs_cooking_featuring_Rakuten_recipe.html                                      # トップページ（自身でコーディング）
-├─ css/
-|    └─ Fs_cooking_featuring_Rakuten_recipe                                      # CSS保存フォルダー(Font Awesomeのcss保存)
-|           └─ Fs_cooking_featuring_Rakuten_recipe.css                           # CSSファイル（自身でコーディング）
-└─ js/
-    └─ Fs_cooking_featuring_Rakuten_recipe                                       # jsファイル保存フォルダー
-           └─ Fs_cooking_featuring_Rakuten_recipe.js                             # jsファイル（自身でコーディング）   
+├─ weather_template.html                          # htmlファイル（自身でコーディング）
+├─ weather_template.css                           # CSSファイル（自身でコーディング）
+└─ weather_bottle.js                              # pythonファイル（自身でコーディング）   
 ```
 ## インストール方法
 1、全てのファイルをフォークし、ローカルにクローンを作成。  
-2、ローカルに保存したHTMLファイルをウェブブラウザで開く。  
-**※楽天APIはご自身のkeyをご使用願います**
-## デモサイトURL（ポートフォリオURL）
-[http://s-fukushima.sakura.ne.jp/Fs_cooking_featuring_Rakuten_recipe.html](http://s-fukushima.sakura.ne.jp/Fs_cooking_featuring_Rakuten_recipe.html "ポートフォリオURL")
+2、ローカルに保存したpythonファイルをlocalhostで開く。  
+3、webブラウザでlocalhostのアドレスを開く。  
+## デモ画像
+
 
 ***
 ***
