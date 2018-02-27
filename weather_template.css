@@ -1,0 +1,121 @@
+/*=======   top   ==================*/
+body {
+    background-image: url(img/main_image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#site_area {
+    width: 375px;
+    margin: 50px auto;
+    border: solid 3px #000;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.7)
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin: 30px 0px;
+    color: #1e90ff;
+}
+
+/*==========   form area   ===================*/
+form {
+    position: relative;
+  }
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 15px;
+    margin: 10px auto;
+    width: 290px;
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;
+}
+
+#select_date select {
+    font-family: 'Arima Madurai', cursive;
+}
+
+#select_place select {
+    font-family: "Rounded Mplus 1c";
+}
+
+#select_date .fa-arrow-alt-circle-down {
+    position: absolute;
+    top: 9px;
+    right: 45px;
+    font-size: 40px;
+    pointer-events: none;
+    color: rgba(50,205,50,1);
+}
+
+#select_place .fa-arrow-alt-circle-down {
+    position: absolute;
+    top: 80.5px;
+    right: 45px;
+    font-size: 40px;
+    pointer-events: none;
+    color: rgba(50,205,50,1);
+}
+
+/*===============   search button   ==================*/
+#search_btn {
+    font-size: 30px;
+    font-family: 'Arima Madurai', cursive;
+    border: none;
+    padding: 5px 25px;
+    margin: 10px 0px 10px 116.5px;
+    background-color: rgba(50,205,50,0.8);
+    cursor: pointer;
+    border-radius: 35px;
+    color: rgba(255,255,255,1);
+}
+
+#search_btn:hover {
+    background-color: rgba(0,128,0,0.8);
+}
+
+/*==========  weather result   =================*/
+#date,#max_temperature,#min_temperature {
+    font-size: 40px;
+    font-family: 'Arima Madurai', cursive;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+#location,#weather {
+    font-size: 40px;
+    font-family: "Rounded Mplus 1c";
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+#date {
+    margin: 20px 0px 0px 0px;
+}
+
+img {
+    width: 75px;
+    margin: 10px 0px 0px 150px;
+}
+
+
+
+/*=========   google fonts   ==================*/
+/*
+.wf-roundedmplus1c { font-family: "Rounded Mplus 1c"; }
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Arima Madurai', cursive;
+font-family: 'Aladin', cursive;
+*/

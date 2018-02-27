@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>weather api featuring live boor weather hacks</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+<link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Aladin|Arima+Madurai|Luckiest+Guy" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link href="{{url('static_file', filepath='css/weather_template.css')}}" rel="stylesheet">
+</head>
+<body>
+<div id="site_area">
+    <h1>weather api featuring live boor weather hacks</h1>
+    <form method="POST" action="/">
+        <label id="select_date">
+            <select name="form_date">
+                <option value="0">Today</option>
+                <option value="1">Tomorrow</option>
+                <option value="2">Day after tomorrow</option>
+            </select>
+            <i class="fas fa-arrow-alt-circle-down"></i>
+        </label>
+        <label id="select_place">
+            <select name="form_place">
+                <option value="016010">札幌(北海道)</option>
+                <option value="020010">青森</option>
+                <option value="030010">盛岡(岩手)</option>
+                <option value="040010">仙台(宮城)</option>
+                <option value="050010">秋田</option>
+                <option value="060010">山形</option>
+                <option value="070010">福島</option>
+                <option value="130010">東京</option>
+                <option value="140010">横浜(神奈川)</option>
+                <option value="110010">埼玉</option>
+                <option value="120010">千葉</option>
+                <option value="080010">水戸(茨城)</option>
+                <option value="090010">宇都宮(栃木)</option>
+                <option value="100010">前橋(群馬)</option>
+                <option value="190010">甲府(山梨)</option>
+                <option value="150010">新潟</option>
+                <option value="200010">長野</option>
+                <option value="160010">富山</option>
+                <option value="170010">金沢(石川)</option>
+                <option value="180010">福井</option>
+                <option value="230010">名古屋(愛知)</option>
+                <option value="210010">岐阜</option>
+                <option value="220010">静岡</option>
+                <option value="240010">津(三重)</option>
+                <option value="270000">大阪</option>
+                <option value="280010">神戸(兵庫)</option>
+                <option value="260010">京都</option>
+                <option value="250010">大津(滋賀)</option>
+                <option value="290010">奈良</option>
+                <option value="300010">和歌山</option>
+                <option value="310010">鳥取</option>
+                <option value="320010">松江(島根)</option>
+                <option value="330010">岡山</option>
+                <option value="340010">広島</option>
+                <option value="350020">山口</option>
+                <option value="360010">徳島</option>
+                <option value="370000">高松(香川)</option>
+                <option value="380010">松山(愛媛)</option>
+                <option value="390010">高知</option>
+                <option value="400010">福岡</option>
+                <option value="440010">大分</option>
+                <option value="420010">長崎</option>
+                <option value="410010">佐賀</option>
+                <option value="430010">熊本</option>
+                <option value="450010">宮崎</option>
+                <option value="460010">鹿児島</option>
+                <option value="471010">那覇(沖縄)</option>
+            </select>
+            <i class="fas fa-arrow-alt-circle-down"></i>
+        </label>
+        <input id="search_btn" type="submit" value="search">
+    </form>
+
+    <p id='date'>{{day}} : {{date}}</p>
+    <p id="location">{{location}}</p>
+    <p id="weather">{{weather}}</p>
+    <img src="{{image_src}}" alt="image of {{weather}}">
+    <p id="max_temperature">max temperature :<br> {{max_temperature}} &#8451;</p>
+    <p id="min_temperature">minimum temperature :<br> {{min_temperature}} &#8451;</p>
+
+</div>
+</body>
+</html>
