@@ -28,9 +28,9 @@ webフレームワークbottleは各自ダウンロード願います。
 ***
 ***
 
-# F's cooking featuring Rakuten recipe
+# weather api featuring live boor weather hacks
 ## Overview
-* This website concept is can search cooking recipe from Rakuten api.
+* This website concept is can search weather from live boor weather api.
 * Using Ajax(jQuey) and Rakuten API.
 * correspondence of responsive design.
 * my web design skill is this web site.
