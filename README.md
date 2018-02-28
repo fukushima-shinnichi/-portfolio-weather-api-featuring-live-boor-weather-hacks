@@ -23,7 +23,7 @@ webフレームワークbottleは各自ダウンロード願います。
 2、ローカルに保存したpythonファイルをlocalhostで開く（webフレームワーク bottleをインストール）。  
 3、webブラウザでlocalhostのアドレスを開く。  
 ## デモ画像
-
+<a href="https://gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc"><img src="https://i.gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc.gif" alt="https://gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc" width="532"/></a>
 
 ***
 ***
