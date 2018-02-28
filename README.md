@@ -51,4 +51,4 @@ Component file/
 2、you install bottle and you open file of python in local area.  
 3、open local host in web browser.  
 ## The program of Demo
-
+<a href="https://gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc"><img src="https://i.gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc.gif" alt="https://gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc" width="532"/></a>
