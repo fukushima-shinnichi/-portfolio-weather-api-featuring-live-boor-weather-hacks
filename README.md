@@ -16,11 +16,11 @@ webフレームワークbottleは各自ダウンロード願います。
 ├─ README.md
 ├─ weather_template.html                          # htmlファイル（自身でコーディング）
 ├─ weather_template.css                           # CSSファイル（自身でコーディング）
-└─ weather_bottle.js                              # pythonファイル（自身でコーディング）   
+└─ weather_bottle.py                              # pythonファイル（自身でコーディング）   
 ```
 ## インストール方法
 1、全てのファイルをフォークし、ローカルにクローンを作成。  
-2、ローカルに保存したpythonファイルをlocalhostで開く。    
+2、ローカルに保存したpythonファイルをlocalhostで開く（webフレームワーク bottleをインストール）。  
 3、webブラウザでlocalhostのアドレスを開く。  
 ## デモ画像
 
@@ -31,31 +31,24 @@ webフレームワークbottleは各自ダウンロード願います。
 # weather api featuring live boor weather hacks
 ## Overview
 * This website concept is can search weather from live boor weather api.
-* Using Ajax(jQuey) and Rakuten API.
+* Using live boor weather hacks and bottle of webframework.
 * correspondence of responsive design.
 * my web design skill is this web site.
 ## Description
 How to use
-1. You choose recipe.  
-2. If you search button click, recipe do display.  
-3. Swipe or under circle button click to next recipe did display.  
-4. If you click Image of cooking, to move recipe site.  
-**You must use your key of Rakuten API.(https://webservice.rakuten.co.jp/)**
+1. You choose prefecture and date.  
+2. If you search button click, you see weather.  
 ## Component file
 ```
 Component file/
 ├─ README.md
-├─ Fs_cooking_featuring_Rakuten_recipe.html                             # Top page.（my coding）
-├─ css/
-|   └─ Fs_cooking_featuring_Rakuten_recipe                              # folder of css(saving in this folder at css of Font Awesome.)
-|          └─ Fs_cooking_featuring_Rakuten_recipe.css                   # file of top page css.（my coding）
-└─ js/
-    └─ Fs_cooking_featuring_Rakuten_recipe                              # folder of js.
-           └─ Fs_cooking_featuring_Rakuten_recipe.js                    # file of top page js.(my coding)
+├─ weather_template.html                  # Top page.（my coding）
+├─ weather_template.css                   # file of top page css.（my coding）
+└─ weather_bottle.py                      # file of top page js.(my coding)
 ```
 ## Install
 1、all files do fork and this all files do clone in local.  
-2、this local files open to web browser.  
-**You must use your key of Rakuten API.**
-## URL of Demo site(URL of my portfolio site)
-[http://s-fukushima.sakura.ne.jp/Fs_cooking_featuring_Rakuten_recipe.html](http://s-fukushima.sakura.ne.jp/Fs_cooking_featuring_Rakuten_recipe.html "URL of my portfolio site")
+2、you install bottle and you open file of python in local area.  
+3、open local host in web browser.  
+## URL of Demo
+
