@@ -23,8 +23,7 @@ webフレームワークbottleは各自ダウンロード願います。
 2、ローカルに保存したpythonファイルをlocalhostで開く（webフレームワーク bottleをインストール）。  
 3、webブラウザでlocalhostのアドレスを開く。  
 ## デモ画像
-<a href="https://gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc"><img src="https://i.gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc.gif" alt="https://gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc" width="532"/></a>
-
+<a href="https://gyazo.com/455bfb03d868e3e1ed578cea6cf165fa"><img src="https://i.gyazo.com/455bfb03d868e3e1ed578cea6cf165fa.gif" alt="https://gyazo.com/455bfb03d868e3e1ed578cea6cf165fa" width="732"/></a>
 ***
 ***
 
@@ -51,4 +50,4 @@ Component file/
 2、you install bottle and you open file of python in local area.  
 3、open local host in web browser.  
 ## The program of Demo
-<a href="https://gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc"><img src="https://i.gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc.gif" alt="https://gyazo.com/9c74d6637c432c549e3e1577d6bfe1cc" width="532"/></a>
+<a href="https://gyazo.com/455bfb03d868e3e1ed578cea6cf165fa"><img src="https://i.gyazo.com/455bfb03d868e3e1ed578cea6cf165fa.gif" alt="https://gyazo.com/455bfb03d868e3e1ed578cea6cf165fa" width="732"/></a>
